@@ -1,17 +1,22 @@
-#footer {
-  width: 300px;
-  height: 300px;
-  background-color: rgba(0, 0, 0, 1);
-  text-align: center;
-  display: table;
+/* class="container"の部分のスタイル */
+.container {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
+/* class="item"の部分のスタイル */
 .item {
-  color: pink;
-  display: table-cell;
-  vertical-align: middle;
+  width: 50%;
+  height: 250px;
+  text-align: center;
+  font-size: 5rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
-.item_2 {
-  color: yellow;
-  display: table-cell;
-  vertical-align: middle;
+/* class="item2"の部分のスタイル */
+.item2 {
+  font-size: 2.5rem;
 }
