@@ -59,3 +59,41 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.smartphone {
+  display: none;
+}
+
+/* responsive-smartphone */
+@media screen and (max-width: 599px) {
+  .eyecatch {
+    height: 200px;
+  }
+  .eyecatch > img {
+    width: 24px;
+    height: 24px;
+  }
+  .content-head {
+    margin: 0 auto;
+  }
+  .content-head > h2 {
+    margin-bottom: 0;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .pc {
+    display: none;
+  }
+  .smartphone {
+    display: block;
+  }
+  .content-item {
+    width: 100%;
+    font-size: 0.9rem;
+    margin: 50px 0;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+}
