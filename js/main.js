@@ -1,7 +1,9 @@
-// 文字列があるが、数値型として扱われる
-console.log('5' * 3); // 15
-console.log('5' - 3); // 2
-console.log('15' / 3); // 5
+const fruit = "apple";
 
-// +は文字列連携で扱われる
-console.log('5' + 3); // 53
+if (fruit == "orange") {
+  console.log("オレンジです");
+} else if (fruit == "apple") {
+  console.log("りんごです")
+} else {
+  console.log("オレンジでもりんごでもないです")
+}
