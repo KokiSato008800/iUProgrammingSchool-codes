@@ -1,22 +1,7 @@
-// varを使用
-console.log('--------------varを使用--------------');
-var Var = '初期値';
-console.log('1.' + Var);
-Var = '代入';
-console.log('2.' + Var);
-var Var = '再宣言';
-console.log('3.' + Var);
+// 文字列があるが、数値型として扱われる
+console.log('5' * 3); // 15
+console.log('5' - 3); // 2
+console.log('15' / 3); // 5
 
-// letを使用
-console.log('--------------letを使用--------------');
-let Let = '初期値';
-console.log('1.' + Let);
-Let = '代入';
-console.log('2.' + Let);
-
-// constを使用
-console.log('--------------constを使用--------------');
-const Const = '初期値';
-console.log('1.' + Const);
-
-
+// +は文字列連携で扱われる
+console.log('5' + 3); // 53
