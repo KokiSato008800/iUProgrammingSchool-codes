@@ -1,9 +1,7 @@
-const fruit = "apple";
-
-if (fruit == "orange") {
-  console.log("オレンジです");
-} else if (fruit == "apple") {
-  console.log("りんごです")
-} else {
-  console.log("オレンジでもりんごでもないです")
+for (let i = 1; i <= 10; i ++) {
+  if (i % 3 == 0) {
+    console.log('世界のナベアツ');
+  } else {
+    console.log(i);
+  }
 }
