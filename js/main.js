@@ -1,5 +1,5 @@
-function sum ( x, y) {
-  console.log(x + y);
+var dif = ( x, y) => {
+  console.log(x - y);
 }
 
-sum(3,4);
+dif( 5, 3);
