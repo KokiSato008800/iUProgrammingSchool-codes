@@ -1,7 +1,5 @@
-for (let i = 1; i <= 10; i ++) {
-  if (i % 3 == 0) {
-    console.log('世界のナベアツ');
-  } else {
-    console.log(i);
-  }
+function sum ( x, y) {
+  console.log(x + y);
 }
+
+sum(3,4);
