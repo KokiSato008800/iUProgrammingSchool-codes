@@ -5,12 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>week2課題</title>
   <link rel="stylesheet" href="css/stylesheet.css">
-
+  <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
 </head>
 <body>
   <!-- eyecatch -->
   <div class="eyecatch">
-    <img src="images/white-menu.png" alt="eyecatch">
+    <img src="images/black-menu.png" alt="eyecatch">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">　</div>
+        <div class="swiper-slide">　</div>
+        <div class="swiper-slide">　</div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
   </div>
   <!-- main-content -->
   <div class="main-content">
@@ -102,10 +111,13 @@
       </div>
     </div>
   </div>
+  <p class="today">今日の日付</p>
+  <p id="date-info" class="today"></p>
   <!-- footer -->
   <footer>
     <p>unicorn.inc</p>
   </footer>
+  <script src="swiper/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

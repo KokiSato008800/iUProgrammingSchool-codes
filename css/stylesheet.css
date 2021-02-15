@@ -2,20 +2,51 @@ body {
   margin: 0;
   padding: 0;
 }
+/* swiper */
+/* 全体のスタイル */
+.swiper-wrapper {
+  width: 100%;
+  height: 600px;
+}
+/* 全スライド共通スタイル */
+.swiper-slide {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 600px;
+}
+/* 4の倍数＋1枚目のスライドのスタイル（1枚目、5枚目…） */
+.swiper-slide:nth-child(3n + 1) {
+  /* background-color: #eecb27; */
+  background-image: url(../images/eyecatch2.jpg);
+  background-size: cover;
+}
+/* 4の倍数＋2枚目のスライドのスタイル（2枚目、6枚目…） */
+.swiper-slide:nth-child(3n + 2) {
+  /* background-color: #e13239; */
+  background-image: url(../images/eyecatch.jpg);
+  background-size: cover;
+}
+/* 4の倍数＋3枚目のスライドのスタイル（3枚目、7枚目…） */
+.swiper-slide:nth-child(3n + 3) {
+  /* background-color: #1f1762; */
+  background-image: url(../images/eyecatch3.jpg);
+  background-size: cover;
+}
 /* eyecatch */
 .eyecatch {
   width: 100%;
   height: 550px;
-  background-image: url(../images/eyecatch.jpg);
-  background-size: cover;
   position: relative;
 }
 .eyecatch > img {
   width: 48px;
   height: 48px;
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 30px;
+  z-index: 100;
 }
 
 /* main-content */
@@ -46,7 +77,11 @@ body {
   width: 100%;
   height: 300px;
 }
-
+/* today */
+.today {
+  text-align: right;
+  margin-right: 20px;
+}
 /* footer */
 footer {
   width: 100%;
