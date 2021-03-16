@@ -26,3 +26,4 @@ window.onload = function () {
   elem.innerHTML = "<p style='font-size: 0.9rem;'>" + dateInfo + "<p>";
 }
 
+// 第五回授業
